@@ -1,19 +1,21 @@
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 .snip1492 {
-    float:right;
-    justify-content:center;
   font-family: 'Oswald', Arial, sans-serif;
+  align-content: flex-start;
   position: relative;
   margin: 10px;
   min-width: 230px;
   max-width: 315px;
-  width:;
+  width: %;
+  float:left;
   background: #ffffff;
   text-align: center;
   color: #000000;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   font-size: 16px;
+  justify-content:center;
+  flex-direction:row;
 }
 
 .snip1492 * {
@@ -101,9 +103,6 @@
 .snip1492.hover i {
   -webkit-transform: translate(-50%, 5px);
   transform: translate(-50%, 5px);
-}
-body{
-  background-color:black;
 }
 #demo{
   color:white;
@@ -254,6 +253,7 @@ body{
 /* Demo purposes only */
 body {
   background-color: #212121;
+  margin-left:150px;
 }
 .top{
   justify-content:center;
