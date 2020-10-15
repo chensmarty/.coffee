@@ -253,10 +253,12 @@
 /* Demo purposes only */
 body {
   background-color: #212121;
-  margin-left:250px;
-    margin-right:130px;
+
 }
 .top{
   justify-content:center;
   width:100%;
+}
+.items{
+  margin-left:200px;
 }
