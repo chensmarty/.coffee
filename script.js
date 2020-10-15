@@ -1,3 +1,9 @@
+/* Demo purposes only */
+$(".hover").mouseleave(
+  function() {
+    $(this).removeClass("hover");
+  }
+);
 const demo=document.getElementById("demo");
 const title=demo.innerHTML;
 const charArray=title.split('');
